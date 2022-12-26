@@ -168,7 +168,7 @@ class Ontology(BaseSemantic):
         fname = filename if filename is not None else self.path
         turtle_string = RDFWriter().to_turtle(self)
         with open(fname, 'w') as f:
-            f.write(turtle_string)
+            #f.write(turtle_string)
             _logger.info("File written to: {}".format(fname))
 
         return fname
