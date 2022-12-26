@@ -59,3 +59,4 @@ stp/resources/*.tar.gz
 /s29-gilcrease.csv.columnmap.txt
 /tests/resources/owl/applicant.png
 /target/
+.vscode/launch.json
